@@ -1,12 +1,13 @@
 {
-  "updated_at": "2026-09-21T17:22:00Z",
+  "updated_at": "2026-09-21T18:51:23.860890+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": false,
-  "source_note": "Waiting for SBD to publish upcoming-game public betting splits.",
+  "source_note": "SBD browser scrape failed: TimeoutError: Page.wait_for_function: Timeout 60000ms exceeded.",
   "parameters": {
     "favorite_spread_max": -6.5,
-    "favorite_money_pct_min": 77
+    "favorite_money_pct_min": 77.0,
+    "trigger_field": "spread $% (money/handle); NOT spread BET% (ticket count)"
   },
   "games": [],
   "history": []
