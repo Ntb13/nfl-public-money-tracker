@@ -1,5 +1,13 @@
 {
-  "updated_at":"2026-09-21T17:22:00Z",
-  "source":"SportsBettingDime",
-  "games":[]
+  "updated_at": "2026-09-21T17:22:00Z",
+  "source": "SportsBettingDime",
+  "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
+  "source_available": false,
+  "source_note": "Waiting for SBD to publish upcoming-game public betting splits.",
+  "parameters": {
+    "favorite_spread_max": -6.5,
+    "favorite_money_pct_min": 77
+  },
+  "games": [],
+  "history": []
 }
