@@ -1,6 +1,11 @@
 name: Refresh NFL money data
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/refresh.py"
+      - ".github/workflows/refresh.yml"
   workflow_dispatch:
   schedule:
     - cron: "*/10 * * * *"
