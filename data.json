@@ -1,14 +1,91 @@
 {
-  "updated_at": "2026-09-21T18:53:37.506793+00:00",
+  "updated_at": "2026-09-21T18:55:02.268489+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
-  "source_available": false,
-  "source_note": "SBD browser scrape failed: RuntimeError: Rendered SBD page contained no parseable NFL matchups",
+  "source_available": true,
+  "source_note": "Live SBD table parsed successfully: 17 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
-    "trigger_field": "spread $% (money/handle); NOT spread BET% (ticket count)"
+    "trigger_field": "SBD Spread $% (money/handle) ONLY; Spread BET% is displayed only as context and never triggers qualification."
   },
-  "games": [],
-  "history": []
+  "games": [
+    {
+      "id": "KC-MIA",
+      "favorite": "KC",
+      "underdog": "MIA",
+      "favorite_spread": -10.5,
+      "underdog_spread": 11.5,
+      "money_pct": 86.0,
+      "bet_pct": 81.0,
+      "kickoff_label": "Sep 27, 5:00pm UTC",
+      "entered_at": "2026-09-21T18:55:02.268489+00:00",
+      "peak_money_pct": 86.0
+    },
+    {
+      "id": "SEA-WAS",
+      "favorite": "SEA",
+      "underdog": "WAS",
+      "favorite_spread": -6.5,
+      "underdog_spread": 6.5,
+      "money_pct": 85.0,
+      "bet_pct": 74.0,
+      "kickoff_label": "Sep 27, 5:00pm UTC",
+      "entered_at": "2026-09-21T18:55:02.268489+00:00",
+      "peak_money_pct": 85.0
+    },
+    {
+      "id": "ARI-SF",
+      "favorite": "SF",
+      "underdog": "ARI",
+      "favorite_spread": -7.5,
+      "underdog_spread": 8.5,
+      "money_pct": 83.0,
+      "bet_pct": 73.0,
+      "kickoff_label": "Sep 27, 8:05pm UTC",
+      "entered_at": "2026-09-21T18:55:02.268489+00:00",
+      "peak_money_pct": 83.0
+    }
+  ],
+  "history": [
+    {
+      "id": "KC-MIA",
+      "favorite": "KC",
+      "underdog": "MIA",
+      "favorite_spread": -10.5,
+      "underdog_spread": 11.5,
+      "money_pct": 86.0,
+      "bet_pct": 81.0,
+      "kickoff_label": "Sep 27, 5:00pm UTC",
+      "entered_at": "2026-09-21T18:55:02.268489+00:00",
+      "peak_money_pct": 86.0,
+      "status": "active"
+    },
+    {
+      "id": "SEA-WAS",
+      "favorite": "SEA",
+      "underdog": "WAS",
+      "favorite_spread": -6.5,
+      "underdog_spread": 6.5,
+      "money_pct": 85.0,
+      "bet_pct": 74.0,
+      "kickoff_label": "Sep 27, 5:00pm UTC",
+      "entered_at": "2026-09-21T18:55:02.268489+00:00",
+      "peak_money_pct": 85.0,
+      "status": "active"
+    },
+    {
+      "id": "ARI-SF",
+      "favorite": "SF",
+      "underdog": "ARI",
+      "favorite_spread": -7.5,
+      "underdog_spread": 8.5,
+      "money_pct": 83.0,
+      "bet_pct": 73.0,
+      "kickoff_label": "Sep 27, 8:05pm UTC",
+      "entered_at": "2026-09-21T18:55:02.268489+00:00",
+      "peak_money_pct": 83.0,
+      "status": "active"
+    }
+  ]
 }
