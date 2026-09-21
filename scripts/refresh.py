@@ -18,18 +18,21 @@ def game_id(a,b): return "-".join(sorted((a,b)))
 def get_rendered_text():
     with sync_playwright() as p:
         browser=p.chromium.launch(headless=True)
-        page=browser.new_page(viewport={"width":1600,"height":1200},user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36")
+        page=browser.new_page(viewport={"width":1600,"height":1400},user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36")
         page.goto(URL,wait_until="domcontentloaded",timeout=60000)
-        # The SBD public-betting widget is client-rendered. Wait for NFL team rows,
-        # then allow the widget to finish filling split percentages.
-        page.wait_for_function("""() => {
-          const t=document.body.innerText;
-          return /\b(SEA|SF|PHI|KC|DAL|BUF)\b/.test(t) && /\d+%/.test(t);
-        }""",timeout=60000)
-        page.wait_for_timeout(4000)
-        text=page.locator("body").inner_text()
+        # SBD's betting board is a client-side widget and may live in an iframe.
+        # Do not wait for team text in the parent document; let the widget load,
+        # then inspect every rendered frame.
+        page.wait_for_timeout(15000)
+        texts=[]
+        for frame in page.frames:
+            try:
+                txt=frame.locator("body").inner_text(timeout=5000)
+                if txt: texts.append(txt)
+            except Exception:
+                pass
         browser.close()
-        return text
+        return "\n".join(texts)
 
 def parse_rendered(text):
     # Rendered SBD row order is:
