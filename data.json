@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-21T18:51:23.860890+00:00",
+  "updated_at": "2026-09-21T18:53:37.506793+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": false,
-  "source_note": "SBD browser scrape failed: TimeoutError: Page.wait_for_function: Timeout 60000ms exceeded.",
+  "source_note": "SBD browser scrape failed: RuntimeError: Rendered SBD page contained no parseable NFL matchups",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
