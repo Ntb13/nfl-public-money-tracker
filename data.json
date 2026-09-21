@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T18:55:02.268489+00:00",
+  "updated_at": "2026-09-21T21:13:16.888542+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
@@ -16,7 +16,7 @@
       "underdog": "MIA",
       "favorite_spread": -10.5,
       "underdog_spread": 11.5,
-      "money_pct": 86.0,
+      "money_pct": 85.0,
       "bet_pct": 81.0,
       "kickoff_label": "Sep 27, 5:00pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
@@ -27,9 +27,9 @@
       "favorite": "SEA",
       "underdog": "WAS",
       "favorite_spread": -6.5,
-      "underdog_spread": 6.5,
+      "underdog_spread": 7.0,
       "money_pct": 85.0,
-      "bet_pct": 74.0,
+      "bet_pct": 75.0,
       "kickoff_label": "Sep 27, 5:00pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
       "peak_money_pct": 85.0
@@ -54,25 +54,29 @@
       "underdog": "MIA",
       "favorite_spread": -10.5,
       "underdog_spread": 11.5,
-      "money_pct": 86.0,
+      "money_pct": 85.0,
       "bet_pct": 81.0,
       "kickoff_label": "Sep 27, 5:00pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
       "peak_money_pct": 86.0,
-      "status": "active"
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     },
     {
       "id": "SEA-WAS",
       "favorite": "SEA",
       "underdog": "WAS",
       "favorite_spread": -6.5,
-      "underdog_spread": 6.5,
+      "underdog_spread": 7.0,
       "money_pct": 85.0,
-      "bet_pct": 74.0,
+      "bet_pct": 75.0,
       "kickoff_label": "Sep 27, 5:00pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
       "peak_money_pct": 85.0,
-      "status": "active"
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     },
     {
       "id": "ARI-SF",
@@ -85,7 +89,9 @@
       "kickoff_label": "Sep 27, 8:05pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
       "peak_money_pct": 83.0,
-      "status": "active"
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     }
   ]
 }
