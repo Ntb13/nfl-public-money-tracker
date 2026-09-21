@@ -20,7 +20,7 @@ h1{font-size:28px;line-height:1.05;margin:4px 0 8px}.sub{color:#aab2c5;font-size
 .opp{margin-top:12px;padding-top:12px;border-top:1px solid #2b3856;color:#cbd5e1;font-size:14px}.empty{text-align:center;padding:28px 16px;color:#aab2c5}
 .rule{background:#101827;border:1px solid #24304a;border-radius:14px;padding:13px;margin-top:14px;color:#cbd5e1;font-size:13px;line-height:1.45}
 .small{font-size:12px;color:#7f8aa3;margin-top:14px}.status{font-size:12px;color:#9ca3af;margin-top:10px}
-.error{color:#fca5a5}.good{color:#86efac}
+.error{color:#fca5a5}.good{color:#86efac}.section{font-size:13px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;margin:22px 2px 8px}.tag{display:inline-block;border-radius:999px;padding:5px 8px;font-size:11px;font-weight:800;margin-bottom:8px}.active{background:#123524;color:#86efac}.dropped{background:#3a3012;color:#fde68a}.source{color:#93c5fd;text-decoration:none;font-weight:700}.why{margin-top:8px;color:#fde68a;font-size:13px}
 </style>
 </head>
 <body>
@@ -32,14 +32,15 @@ h1{font-size:28px;line-height:1.05;margin:4px 0 8px}.sub{color:#aab2c5;font-size
     </div>
     <div class="pill">Auto-refresh 10m</div>
   </div>
-  <div class="rule"><strong>Filter:</strong> favorite spread ≤ -6.5 and money % ≥ 77%. Historical reference discussed: 13–25 ATS for the heavily backed favorites in the cited VSiN sample. This app does not imply a betting recommendation.</div>
+  <div class="rule"><strong>QUALIFIER PARAMETERS</strong><br><strong>Favorite:</strong> -6.5 or larger &nbsp;•&nbsp; <strong>Spread money:</strong> ≥77% on the favorite<br><strong>Market:</strong> Spread / ATS money (not moneyline)<br><span class="meta">Historical reference: qualifying favorites went 13–25 ATS in the cited VSiN/DraftKings sample. Historical result only; not a prediction.</span></div>
   <div class="controls">
     <button class="btn" onclick="loadData()">Refresh now</button>
     <button class="btn secondary" onclick="location.reload()">Reload app</button>
   </div>
   <div id="status" class="status">Loading…</div>
-  <div id="games"></div>
-  <div class="small">Data source: SportsBettingDime public NFL betting trends page. If the source page changes, parsing may need adjustment. Underlying split data may update less frequently than every 10 minutes.</div>
+  <div class="section">🟢 Current Qualifiers</div><div id="games"></div>
+  <div class="section">🟡 Previously Qualified This Week</div><div id="history"></div>
+  <div class="small">Source: <a class="source" href="https://www.sportsbettingdime.com/nfl/public-betting-trends/" target="_blank" rel="noopener">SportsBettingDime NFL Public Betting Trends ↗</a>. SBD says its public splits are updated hourly, so the app may check every 10 minutes without the underlying numbers changing each time.</div>
 </div>
 <script>
 const DATA_URL='data.json';
@@ -50,22 +51,19 @@ function render(data){
   const games=(data.games||[]).filter(g=>Number(g.favorite_spread)<=-6.5&&Number(g.money_pct)>=77);
   const root=document.getElementById('games');
   document.getElementById('status').innerHTML='Last data update: <span class="good">'+(data.updated_at?new Date(data.updated_at).toLocaleString():'unknown')+'</span>';
-  if(!games.length){root.innerHTML='<div class="card empty">No games currently meet both thresholds.</div>';return}
-  root.innerHTML=games.sort((a,b)=>b.money_pct-a.money_pct).map(g=>`
-    <div class="card">
-      <div class="row">
-        <div>
-          <div class="match">${g.favorite} vs ${g.underdog}</div>
-          <div class="meta">${g.kickoff?fmtTime(g.kickoff):''}</div>
-          <div class="spread">${g.favorite} ${g.favorite_spread}</div>
-        </div>
-        <div style="text-align:right">
-          <div class="label">Spread money</div>
-          <div class="money">${g.money_pct}%</div>
-        </div>
-      </div>
-      <div class="opp">Opposing side: <strong>${g.underdog} ${g.underdog_spread||''}</strong></div>
-    </div>`).join('');
+  root.innerHTML=games.length?games.sort((a,b)=>b.money_pct-a.money_pct).map(g=>`
+    <div class="card"><span class="tag active">ACTIVE</span>
+      <div class="row"><div><div class="match">${g.favorite} vs ${g.underdog}</div><div class="meta">${g.kickoff?fmtTime(g.kickoff):''}</div><div class="spread">${g.favorite} ${g.favorite_spread}</div></div>
+      <div style="text-align:right"><div class="label">Spread money</div><div class="money">${g.money_pct}%</div><div class="meta">${g.bet_pct!=null?g.bet_pct+'% bets':''}</div></div></div>
+      <div class="opp">Opposing side: <strong>${g.underdog} ${g.underdog_spread||''}</strong>${g.opening_spread!=null?'<br><span class="meta">Opened '+g.favorite+' '+g.opening_spread+' → Current '+g.favorite+' '+g.favorite_spread+'</span>':''}</div>
+    </div>`).join(''):'<div class="card empty">No games currently meet both thresholds.</div>';
+  const hist=(data.history||[]).filter(g=>!games.some(a=>a.id&&a.id===g.id));
+  document.getElementById('history').innerHTML=hist.length?hist.map(g=>`
+    <div class="card"><span class="tag dropped">${g.status==='final'?'FINAL':'PREVIOUSLY QUALIFIED'}</span>
+      <div class="row"><div><div class="match">${g.favorite} vs ${g.underdog}</div><div class="spread">Current: ${g.favorite} ${g.favorite_spread} · ${g.money_pct}% money</div></div><div style="text-align:right"><div class="label">Peak money</div><div class="money">${g.peak_money_pct||g.money_pct}%</div></div></div>
+      <div class="why">${g.drop_reason||'No longer meets one or both qualifier parameters.'}</div>
+      <div class="meta">Qualified: ${g.entered_at?new Date(g.entered_at).toLocaleString():'—'}${g.dropped_at?' → '+new Date(g.dropped_at).toLocaleString():''}</div>
+    </div>`).join(''):'<div class="card empty">No games have dropped out of the qualifier list this week.</div>';
 }
 async function loadData(){
   document.getElementById('status').textContent='Refreshing…';
