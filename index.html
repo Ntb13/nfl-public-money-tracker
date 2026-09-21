@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111827">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon.svg">
+<title>NFL Public Money Tracker</title>
+<style>
+:root{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#f9fafb;background:#0b1020}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#0b1020,#111827);min-height:100vh}
+.wrap{max-width:760px;margin:0 auto;padding:18px 14px 80px}.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+h1{font-size:28px;line-height:1.05;margin:4px 0 8px}.sub{color:#aab2c5;font-size:14px;line-height:1.4}
+.pill{background:#162036;border:1px solid #26324d;border-radius:999px;padding:7px 10px;font-size:12px;color:#cbd5e1;white-space:nowrap}
+.controls{display:flex;gap:10px;margin:18px 0 12px}.btn{flex:1;border:0;border-radius:12px;padding:12px 14px;font-weight:700;background:#f9fafb;color:#111827}.btn.secondary{background:#182238;color:#e5e7eb;border:1px solid #2b3856}
+.card{background:rgba(22,32,54,.9);border:1px solid #2a3653;border-radius:18px;padding:16px;margin:12px 0;box-shadow:0 14px 30px rgba(0,0,0,.18)}
+.row{display:flex;justify-content:space-between;gap:14px;align-items:center}.match{font-size:20px;font-weight:800}.meta{color:#9ca3af;font-size:13px;margin-top:4px}
+.money{font-size:34px;font-weight:900;letter-spacing:-1px}.label{font-size:11px;color:#94a3b8;text-transform:uppercase;letter-spacing:.12em}.spread{font-size:16px;font-weight:800;margin-top:6px}
+.opp{margin-top:12px;padding-top:12px;border-top:1px solid #2b3856;color:#cbd5e1;font-size:14px}.empty{text-align:center;padding:28px 16px;color:#aab2c5}
+.rule{background:#101827;border:1px solid #24304a;border-radius:14px;padding:13px;margin-top:14px;color:#cbd5e1;font-size:13px;line-height:1.45}
+.small{font-size:12px;color:#7f8aa3;margin-top:14px}.status{font-size:12px;color:#9ca3af;margin-top:10px}
+.error{color:#fca5a5}.good{color:#86efac}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>NFL Public Money Tracker</h1>
+      <div class="sub">Shows only games matching the historical filter: favorite by 6.5+ with 77%+ of spread money.</div>
+    </div>
+    <div class="pill">Auto-refresh 10m</div>
+  </div>
+  <div class="rule"><strong>Filter:</strong> favorite spread ≤ -6.5 and money % ≥ 77%. Historical reference discussed: 13–25 ATS for the heavily backed favorites in the cited VSiN sample. This app does not imply a betting recommendation.</div>
+  <div class="controls">
+    <button class="btn" onclick="loadData()">Refresh now</button>
+    <button class="btn secondary" onclick="location.reload()">Reload app</button>
+  </div>
+  <div id="status" class="status">Loading…</div>
+  <div id="games"></div>
+  <div class="small">Data source: SportsBettingDime public NFL betting trends page. If the source page changes, parsing may need adjustment. Underlying split data may update less frequently than every 10 minutes.</div>
+</div>
+<script>
+const DATA_URL='data.json';
+function fmtTime(iso){
+  try{return new Intl.DateTimeFormat(undefined,{weekday:'short',hour:'numeric',minute:'2-digit'}).format(new Date(iso));}catch{return iso||''}
+}
+function render(data){
+  const games=(data.games||[]).filter(g=>Number(g.favorite_spread)<=-6.5&&Number(g.money_pct)>=77);
+  const root=document.getElementById('games');
+  document.getElementById('status').innerHTML='Last data update: <span class="good">'+(data.updated_at?new Date(data.updated_at).toLocaleString():'unknown')+'</span>';
+  if(!games.length){root.innerHTML='<div class="card empty">No games currently meet both thresholds.</div>';return}
+  root.innerHTML=games.sort((a,b)=>b.money_pct-a.money_pct).map(g=>`
+    <div class="card">
+      <div class="row">
+        <div>
+          <div class="match">${g.favorite} vs ${g.underdog}</div>
+          <div class="meta">${g.kickoff?fmtTime(g.kickoff):''}</div>
+          <div class="spread">${g.favorite} ${g.favorite_spread}</div>
+        </div>
+        <div style="text-align:right">
+          <div class="label">Spread money</div>
+          <div class="money">${g.money_pct}%</div>
+        </div>
+      </div>
+      <div class="opp">Opposing side: <strong>${g.underdog} ${g.underdog_spread||''}</strong></div>
+    </div>`).join('');
+}
+async function loadData(){
+  document.getElementById('status').textContent='Refreshing…';
+  try{
+    const r=await fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    render(await r.json());
+  }catch(e){
+    document.getElementById('status').innerHTML='<span class="error">Could not load live data: '+e.message+'</span>';
+  }
+}
+loadData();
+setInterval(loadData,600000);
+if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(()=>{})}
+</script>
+</body></html>
