@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T04:46:49.363584+00:00",
+  "updated_at": "2026-09-22T09:29:54.241493+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
@@ -16,11 +16,11 @@
       "underdog": "MIA",
       "favorite_spread": -10.5,
       "underdog_spread": 12.0,
-      "money_pct": 88.0,
-      "bet_pct": 83.0,
+      "money_pct": 92.0,
+      "bet_pct": 84.0,
       "kickoff_label": "Sep 27, 5:00pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
-      "peak_money_pct": 88.0
+      "peak_money_pct": 92.0
     },
     {
       "id": "SEA-WAS",
@@ -28,11 +28,23 @@
       "underdog": "WAS",
       "favorite_spread": -6.5,
       "underdog_spread": 7.0,
-      "money_pct": 89.0,
+      "money_pct": 90.0,
       "bet_pct": 81.0,
       "kickoff_label": "Sep 27, 5:00pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
-      "peak_money_pct": 89.0
+      "peak_money_pct": 90.0
+    },
+    {
+      "id": "ARI-SF",
+      "favorite": "SF",
+      "underdog": "ARI",
+      "favorite_spread": -7.5,
+      "underdog_spread": 8.5,
+      "money_pct": 77.0,
+      "bet_pct": 73.0,
+      "kickoff_label": "Sep 27, 8:05pm UTC",
+      "entered_at": "2026-09-21T18:55:02.268489+00:00",
+      "peak_money_pct": 83.0
     }
   ],
   "history": [
@@ -42,11 +54,11 @@
       "underdog": "MIA",
       "favorite_spread": -10.5,
       "underdog_spread": 12.0,
-      "money_pct": 88.0,
-      "bet_pct": 83.0,
+      "money_pct": 92.0,
+      "bet_pct": 84.0,
       "kickoff_label": "Sep 27, 5:00pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
-      "peak_money_pct": 88.0,
+      "peak_money_pct": 92.0,
       "status": "active",
       "dropped_at": null,
       "drop_reason": null
@@ -57,11 +69,11 @@
       "underdog": "WAS",
       "favorite_spread": -6.5,
       "underdog_spread": 7.0,
-      "money_pct": 89.0,
+      "money_pct": 90.0,
       "bet_pct": 81.0,
       "kickoff_label": "Sep 27, 5:00pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
-      "peak_money_pct": 89.0,
+      "peak_money_pct": 90.0,
       "status": "active",
       "dropped_at": null,
       "drop_reason": null
@@ -72,14 +84,14 @@
       "underdog": "ARI",
       "favorite_spread": -7.5,
       "underdog_spread": 8.5,
-      "money_pct": 76.0,
-      "bet_pct": 72.0,
+      "money_pct": 77.0,
+      "bet_pct": 73.0,
       "kickoff_label": "Sep 27, 8:05pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
       "peak_money_pct": 83.0,
-      "status": "dropped",
-      "dropped_at": "2026-09-22T04:46:49.363584+00:00",
-      "drop_reason": "Dropped because spread money fell to 76%."
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     }
   ]
 }
