@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T05:34:38.470804+00:00",
+  "updated_at": "2026-09-24T10:28:22.683093+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
@@ -38,13 +38,13 @@
       "id": "ARI-SF",
       "favorite": "SF",
       "underdog": "ARI",
-      "favorite_spread": -8.0,
+      "favorite_spread": -8.5,
       "underdog_spread": 9.0,
-      "money_pct": 87.0,
+      "money_pct": 88.0,
       "bet_pct": 80.0,
       "kickoff_label": "Sep 27, 8:05pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
-      "peak_money_pct": 87.0
+      "peak_money_pct": 88.0
     }
   ],
   "history": [
@@ -82,13 +82,13 @@
       "id": "ARI-SF",
       "favorite": "SF",
       "underdog": "ARI",
-      "favorite_spread": -8.0,
+      "favorite_spread": -8.5,
       "underdog_spread": 9.0,
-      "money_pct": 87.0,
+      "money_pct": 88.0,
       "bet_pct": 80.0,
       "kickoff_label": "Sep 27, 8:05pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
-      "peak_money_pct": 87.0,
+      "peak_money_pct": 88.0,
       "status": "active",
       "dropped_at": null,
       "drop_reason": null
