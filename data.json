@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T14:30:25.443606+00:00",
+  "updated_at": "2026-09-26T17:54:27.548323+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
@@ -28,7 +28,7 @@
       "underdog": "WAS",
       "favorite_spread": -7.5,
       "underdog_spread": 8.5,
-      "money_pct": 89.0,
+      "money_pct": 90.0,
       "bet_pct": 89.0,
       "kickoff_label": "Sep 27, 5:00pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
@@ -40,7 +40,7 @@
       "underdog": "ARI",
       "favorite_spread": -7.5,
       "underdog_spread": 8.5,
-      "money_pct": 83.0,
+      "money_pct": 81.0,
       "bet_pct": 81.0,
       "kickoff_label": "Sep 27, 8:05pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
@@ -81,7 +81,7 @@
       "underdog": "WAS",
       "favorite_spread": -7.5,
       "underdog_spread": 8.5,
-      "money_pct": 89.0,
+      "money_pct": 90.0,
       "bet_pct": 89.0,
       "kickoff_label": "Sep 27, 5:00pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
@@ -96,7 +96,7 @@
       "underdog": "ARI",
       "favorite_spread": -7.5,
       "underdog_spread": 8.5,
-      "money_pct": 83.0,
+      "money_pct": 81.0,
       "bet_pct": 81.0,
       "kickoff_label": "Sep 27, 8:05pm UTC",
       "entered_at": "2026-09-21T18:55:02.268489+00:00",
@@ -116,7 +116,9 @@
       "kickoff_label": "Oct 4, 5:00pm UTC",
       "entered_at": "2026-09-26T14:30:25.443606+00:00",
       "peak_money_pct": 95.0,
-      "status": "active"
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     }
   ]
 }
