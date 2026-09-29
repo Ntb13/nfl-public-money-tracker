@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-29T00:34:48.236810+00:00",
+  "updated_at": "2026-09-29T06:06:43.765714+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
-  "source_note": "Live SBD table parsed successfully: 17 matchups.",
+  "source_note": "Live SBD table parsed successfully: 14 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
@@ -16,23 +16,11 @@
       "underdog": "TEN",
       "favorite_spread": -11.5,
       "underdog_spread": 11.5,
-      "money_pct": 82.0,
-      "bet_pct": 66.0,
+      "money_pct": 85.0,
+      "bet_pct": 69.0,
       "kickoff_label": "Oct 4, 5:00pm UTC",
       "entered_at": "2026-09-26T14:30:25.443606+00:00",
       "peak_money_pct": 95.0
-    },
-    {
-      "id": "BUF-NE",
-      "favorite": "BUF",
-      "underdog": "NE",
-      "favorite_spread": -6.5,
-      "underdog_spread": 6.5,
-      "money_pct": 83.0,
-      "bet_pct": 59.0,
-      "kickoff_label": "Oct 4, 5:00pm UTC",
-      "entered_at": "2026-09-28T01:09:42.439618+00:00",
-      "peak_money_pct": 88.0
     },
     {
       "id": "MIA-MIN",
@@ -41,20 +29,8 @@
       "favorite_spread": -10.5,
       "underdog_spread": 11.5,
       "money_pct": 81.0,
-      "bet_pct": 74.0,
+      "bet_pct": 71.0,
       "kickoff_label": "Oct 4, 8:05pm UTC",
-      "entered_at": "2026-09-28T06:47:10.713715+00:00",
-      "peak_money_pct": 86.0
-    },
-    {
-      "id": "LAC-SEA",
-      "favorite": "SEA",
-      "underdog": "LAC",
-      "favorite_spread": -6.5,
-      "underdog_spread": 7.0,
-      "money_pct": 79.0,
-      "bet_pct": 61.0,
-      "kickoff_label": "Oct 4, 8:25pm UTC",
       "entered_at": "2026-09-28T06:47:10.713715+00:00",
       "peak_money_pct": 86.0
     }
@@ -111,8 +87,8 @@
       "underdog": "TEN",
       "favorite_spread": -11.5,
       "underdog_spread": 11.5,
-      "money_pct": 82.0,
-      "bet_pct": 66.0,
+      "money_pct": 85.0,
+      "bet_pct": 69.0,
       "kickoff_label": "Oct 4, 5:00pm UTC",
       "entered_at": "2026-09-26T14:30:25.443606+00:00",
       "peak_money_pct": 95.0,
@@ -141,14 +117,14 @@
       "underdog": "NE",
       "favorite_spread": -6.5,
       "underdog_spread": 6.5,
-      "money_pct": 83.0,
-      "bet_pct": 59.0,
+      "money_pct": 74.0,
+      "bet_pct": 62.0,
       "kickoff_label": "Oct 4, 5:00pm UTC",
       "entered_at": "2026-09-28T01:09:42.439618+00:00",
       "peak_money_pct": 88.0,
-      "status": "active",
-      "dropped_at": null,
-      "drop_reason": null
+      "status": "dropped",
+      "dropped_at": "2026-09-29T06:06:43.765714+00:00",
+      "drop_reason": "Dropped because spread money fell to 74%."
     },
     {
       "id": "MIA-MIN",
@@ -157,7 +133,7 @@
       "favorite_spread": -10.5,
       "underdog_spread": 11.5,
       "money_pct": 81.0,
-      "bet_pct": 74.0,
+      "bet_pct": 71.0,
       "kickoff_label": "Oct 4, 8:05pm UTC",
       "entered_at": "2026-09-28T06:47:10.713715+00:00",
       "peak_money_pct": 86.0,
@@ -169,16 +145,16 @@
       "id": "LAC-SEA",
       "favorite": "SEA",
       "underdog": "LAC",
-      "favorite_spread": -6.5,
+      "favorite_spread": -7.0,
       "underdog_spread": 7.0,
-      "money_pct": 79.0,
-      "bet_pct": 61.0,
+      "money_pct": 67.0,
+      "bet_pct": 56.0,
       "kickoff_label": "Oct 4, 8:25pm UTC",
       "entered_at": "2026-09-28T06:47:10.713715+00:00",
       "peak_money_pct": 86.0,
-      "status": "active",
-      "dropped_at": null,
-      "drop_reason": null
+      "status": "dropped",
+      "dropped_at": "2026-09-29T06:06:43.765714+00:00",
+      "drop_reason": "Dropped because spread money fell to 67%."
     }
   ]
 }
