@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-04T13:20:21.351373+00:00",
+  "updated_at": "2026-10-04T17:38:56.146866+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
-  "source_note": "Live SBD table parsed successfully: 18 matchups.",
+  "source_note": "Live SBD table parsed successfully: 19 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
@@ -16,8 +16,8 @@
       "underdog": "TEN",
       "favorite_spread": -11.5,
       "underdog_spread": 11.5,
-      "money_pct": 80.0,
-      "bet_pct": 72.0,
+      "money_pct": 81.0,
+      "bet_pct": 74.0,
       "kickoff_label": "Oct 4, 5:00pm UTC",
       "entered_at": "2026-09-26T14:30:25.443606+00:00",
       "peak_money_pct": 95.0
@@ -28,8 +28,8 @@
       "underdog": "MIA",
       "favorite_spread": -8.5,
       "underdog_spread": 8.5,
-      "money_pct": 96.0,
-      "bet_pct": 88.0,
+      "money_pct": 95.0,
+      "bet_pct": 85.0,
       "kickoff_label": "Oct 11, 5:00pm UTC",
       "entered_at": "2026-10-04T13:20:21.351373+00:00",
       "peak_money_pct": 96.0
@@ -87,8 +87,8 @@
       "underdog": "TEN",
       "favorite_spread": -11.5,
       "underdog_spread": 11.5,
-      "money_pct": 80.0,
-      "bet_pct": 72.0,
+      "money_pct": 81.0,
+      "bet_pct": 74.0,
       "kickoff_label": "Oct 4, 5:00pm UTC",
       "entered_at": "2026-09-26T14:30:25.443606+00:00",
       "peak_money_pct": 95.0,
@@ -162,12 +162,14 @@
       "underdog": "MIA",
       "favorite_spread": -8.5,
       "underdog_spread": 8.5,
-      "money_pct": 96.0,
-      "bet_pct": 88.0,
+      "money_pct": 95.0,
+      "bet_pct": 85.0,
       "kickoff_label": "Oct 11, 5:00pm UTC",
       "entered_at": "2026-10-04T13:20:21.351373+00:00",
       "peak_money_pct": 96.0,
-      "status": "active"
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     }
   ]
 }
