@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-06T03:01:04.993402+00:00",
+  "updated_at": "2026-10-06T10:06:13.922239+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
-  "source_note": "Live SBD table parsed successfully: 14 matchups.",
+  "source_note": "Live SBD table parsed successfully: 15 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
@@ -16,8 +16,8 @@
       "underdog": "TEN",
       "favorite_spread": -6.5,
       "underdog_spread": 7.0,
-      "money_pct": 91.0,
-      "bet_pct": 75.0,
+      "money_pct": 88.0,
+      "bet_pct": 74.0,
       "kickoff_label": "Oct 11, 5:00pm UTC",
       "entered_at": "2026-10-05T17:30:14.089214+00:00",
       "peak_money_pct": 93.0
@@ -165,8 +165,8 @@
       "underdog": "TEN",
       "favorite_spread": -6.5,
       "underdog_spread": 7.0,
-      "money_pct": 91.0,
-      "bet_pct": 75.0,
+      "money_pct": 88.0,
+      "bet_pct": 74.0,
       "kickoff_label": "Oct 11, 5:00pm UTC",
       "entered_at": "2026-10-05T17:30:14.089214+00:00",
       "peak_money_pct": 93.0,
