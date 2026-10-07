@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T19:34:12.733716+00:00",
+  "updated_at": "2026-10-07T23:45:24.958124+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
@@ -15,24 +15,12 @@
       "favorite": "CIN",
       "underdog": "MIA",
       "favorite_spread": -6.5,
-      "underdog_spread": 7.0,
-      "money_pct": 83.0,
+      "underdog_spread": 6.5,
+      "money_pct": 84.0,
       "bet_pct": 76.0,
       "kickoff_label": "Oct 11, 5:00pm UTC",
       "entered_at": "2026-10-04T13:20:21.351373+00:00",
       "peak_money_pct": 96.0
-    },
-    {
-      "id": "HOU-TEN",
-      "favorite": "HOU",
-      "underdog": "TEN",
-      "favorite_spread": -7.0,
-      "underdog_spread": 7.5,
-      "money_pct": 77.0,
-      "bet_pct": 72.0,
-      "kickoff_label": "Oct 11, 5:00pm UTC",
-      "entered_at": "2026-10-05T17:30:14.089214+00:00",
-      "peak_money_pct": 93.0
     }
   ],
   "history": [
@@ -161,8 +149,8 @@
       "favorite": "CIN",
       "underdog": "MIA",
       "favorite_spread": -6.5,
-      "underdog_spread": 7.0,
-      "money_pct": 83.0,
+      "underdog_spread": 6.5,
+      "money_pct": 84.0,
       "bet_pct": 76.0,
       "kickoff_label": "Oct 11, 5:00pm UTC",
       "entered_at": "2026-10-04T13:20:21.351373+00:00",
@@ -175,16 +163,16 @@
       "id": "HOU-TEN",
       "favorite": "HOU",
       "underdog": "TEN",
-      "favorite_spread": -7.0,
-      "underdog_spread": 7.5,
-      "money_pct": 77.0,
+      "favorite_spread": -7.5,
+      "underdog_spread": 8.5,
+      "money_pct": 75.0,
       "bet_pct": 72.0,
       "kickoff_label": "Oct 11, 5:00pm UTC",
       "entered_at": "2026-10-05T17:30:14.089214+00:00",
       "peak_money_pct": 93.0,
-      "status": "active",
-      "dropped_at": null,
-      "drop_reason": null
+      "status": "dropped",
+      "dropped_at": "2026-10-07T23:45:24.958124+00:00",
+      "drop_reason": "Dropped because spread money fell to 75%."
     }
   ]
 }
