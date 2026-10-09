@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T14:44:35.556212+00:00",
+  "updated_at": "2026-10-09T19:48:34.990789+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
@@ -9,7 +9,20 @@
     "favorite_money_pct_min": 77.0,
     "trigger_field": "SBD Spread $% (money/handle) ONLY; Spread BET% is displayed only as context and never triggers qualification."
   },
-  "games": [],
+  "games": [
+    {
+      "id": "CIN-MIA",
+      "favorite": "CIN",
+      "underdog": "MIA",
+      "favorite_spread": -6.5,
+      "underdog_spread": 7.0,
+      "money_pct": 86.0,
+      "bet_pct": 75.0,
+      "kickoff_label": "Oct 11, 5:00pm UTC",
+      "entered_at": "2026-10-04T13:20:21.351373+00:00",
+      "peak_money_pct": 96.0
+    }
+  ],
   "history": [
     {
       "id": "KC-MIA",
@@ -135,16 +148,16 @@
       "id": "CIN-MIA",
       "favorite": "CIN",
       "underdog": "MIA",
-      "favorite_spread": -5.5,
-      "underdog_spread": 6.5,
-      "money_pct": 87.0,
+      "favorite_spread": -6.5,
+      "underdog_spread": 7.0,
+      "money_pct": 86.0,
       "bet_pct": 75.0,
       "kickoff_label": "Oct 11, 5:00pm UTC",
       "entered_at": "2026-10-04T13:20:21.351373+00:00",
       "peak_money_pct": 96.0,
-      "status": "dropped",
-      "dropped_at": "2026-10-09T14:44:35.556212+00:00",
-      "drop_reason": "Dropped because spread moved to -5.5."
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     },
     {
       "id": "HOU-TEN",
