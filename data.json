@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-12T07:35:03.645607+00:00",
+  "updated_at": "2026-10-12T16:57:31.788678+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
-  "source_note": "Live SBD table parsed successfully: 12 matchups.",
+  "source_note": "Live SBD table parsed successfully: 16 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
@@ -16,11 +16,11 @@
       "underdog": "TEN",
       "favorite_spread": -6.5,
       "underdog_spread": 7.0,
-      "money_pct": 84.0,
-      "bet_pct": 69.0,
+      "money_pct": 86.0,
+      "bet_pct": 68.0,
       "kickoff_label": "Oct 18, 5:00pm UTC",
       "entered_at": "2026-10-12T07:35:03.645607+00:00",
-      "peak_money_pct": 84.0
+      "peak_money_pct": 86.0
     },
     {
       "id": "NE-NYJ",
@@ -28,11 +28,11 @@
       "underdog": "NYJ",
       "favorite_spread": -7.0,
       "underdog_spread": 7.5,
-      "money_pct": 82.0,
-      "bet_pct": 70.0,
+      "money_pct": 85.0,
+      "bet_pct": 73.0,
       "kickoff_label": "Oct 18, 5:00pm UTC",
       "entered_at": "2026-10-12T07:35:03.645607+00:00",
-      "peak_money_pct": 82.0
+      "peak_money_pct": 85.0
     }
   ],
   "history": [
@@ -192,12 +192,14 @@
       "underdog": "TEN",
       "favorite_spread": -6.5,
       "underdog_spread": 7.0,
-      "money_pct": 84.0,
-      "bet_pct": 69.0,
+      "money_pct": 86.0,
+      "bet_pct": 68.0,
       "kickoff_label": "Oct 18, 5:00pm UTC",
       "entered_at": "2026-10-12T07:35:03.645607+00:00",
-      "peak_money_pct": 84.0,
-      "status": "active"
+      "peak_money_pct": 86.0,
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     },
     {
       "id": "NE-NYJ",
@@ -205,12 +207,14 @@
       "underdog": "NYJ",
       "favorite_spread": -7.0,
       "underdog_spread": 7.5,
-      "money_pct": 82.0,
-      "bet_pct": 70.0,
+      "money_pct": 85.0,
+      "bet_pct": 73.0,
       "kickoff_label": "Oct 18, 5:00pm UTC",
       "entered_at": "2026-10-12T07:35:03.645607+00:00",
-      "peak_money_pct": 82.0,
-      "status": "active"
+      "peak_money_pct": 85.0,
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     }
   ]
 }
