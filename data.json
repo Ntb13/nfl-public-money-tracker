@@ -1,15 +1,40 @@
 {
-  "updated_at": "2026-10-12T01:26:31.808714+00:00",
+  "updated_at": "2026-10-12T07:35:03.645607+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
-  "source_note": "Live SBD table parsed successfully: 7 matchups.",
+  "source_note": "Live SBD table parsed successfully: 12 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
     "trigger_field": "SBD Spread $% (money/handle) ONLY; Spread BET% is displayed only as context and never triggers qualification."
   },
-  "games": [],
+  "games": [
+    {
+      "id": "IND-TEN",
+      "favorite": "IND",
+      "underdog": "TEN",
+      "favorite_spread": -6.5,
+      "underdog_spread": 7.0,
+      "money_pct": 84.0,
+      "bet_pct": 69.0,
+      "kickoff_label": "Oct 18, 5:00pm UTC",
+      "entered_at": "2026-10-12T07:35:03.645607+00:00",
+      "peak_money_pct": 84.0
+    },
+    {
+      "id": "NE-NYJ",
+      "favorite": "NE",
+      "underdog": "NYJ",
+      "favorite_spread": -7.0,
+      "underdog_spread": 7.5,
+      "money_pct": 82.0,
+      "bet_pct": 70.0,
+      "kickoff_label": "Oct 18, 5:00pm UTC",
+      "entered_at": "2026-10-12T07:35:03.645607+00:00",
+      "peak_money_pct": 82.0
+    }
+  ],
   "history": [
     {
       "id": "KC-MIA",
@@ -160,6 +185,32 @@
       "status": "dropped",
       "dropped_at": "2026-10-07T23:45:24.958124+00:00",
       "drop_reason": "Dropped because spread money fell to 75%."
+    },
+    {
+      "id": "IND-TEN",
+      "favorite": "IND",
+      "underdog": "TEN",
+      "favorite_spread": -6.5,
+      "underdog_spread": 7.0,
+      "money_pct": 84.0,
+      "bet_pct": 69.0,
+      "kickoff_label": "Oct 18, 5:00pm UTC",
+      "entered_at": "2026-10-12T07:35:03.645607+00:00",
+      "peak_money_pct": 84.0,
+      "status": "active"
+    },
+    {
+      "id": "NE-NYJ",
+      "favorite": "NE",
+      "underdog": "NYJ",
+      "favorite_spread": -7.0,
+      "underdog_spread": 7.5,
+      "money_pct": 82.0,
+      "bet_pct": 70.0,
+      "kickoff_label": "Oct 18, 5:00pm UTC",
+      "entered_at": "2026-10-12T07:35:03.645607+00:00",
+      "peak_money_pct": 82.0,
+      "status": "active"
     }
   ]
 }
