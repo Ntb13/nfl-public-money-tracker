@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T23:24:41.868983+00:00",
+  "updated_at": "2026-10-13T03:40:51.544467+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
@@ -16,8 +16,8 @@
       "underdog": "TEN",
       "favorite_spread": -6.5,
       "underdog_spread": 7.0,
-      "money_pct": 86.0,
-      "bet_pct": 71.0,
+      "money_pct": 83.0,
+      "bet_pct": 73.0,
       "kickoff_label": "Oct 18, 5:00pm UTC",
       "entered_at": "2026-10-12T07:35:03.645607+00:00",
       "peak_money_pct": 86.0
@@ -28,10 +28,22 @@
       "underdog": "NYJ",
       "favorite_spread": -7.0,
       "underdog_spread": 7.5,
-      "money_pct": 85.0,
-      "bet_pct": 74.0,
+      "money_pct": 87.0,
+      "bet_pct": 75.0,
       "kickoff_label": "Oct 18, 5:00pm UTC",
       "entered_at": "2026-10-12T07:35:03.645607+00:00",
+      "peak_money_pct": 87.0
+    },
+    {
+      "id": "SF-WAS",
+      "favorite": "SF",
+      "underdog": "WAS",
+      "favorite_spread": -7.5,
+      "underdog_spread": 7.5,
+      "money_pct": 85.0,
+      "bet_pct": 67.0,
+      "kickoff_label": "Oct 20, 12:15am UTC",
+      "entered_at": "2026-10-13T03:40:51.544467+00:00",
       "peak_money_pct": 85.0
     }
   ],
@@ -192,8 +204,8 @@
       "underdog": "TEN",
       "favorite_spread": -6.5,
       "underdog_spread": 7.0,
-      "money_pct": 86.0,
-      "bet_pct": 71.0,
+      "money_pct": 83.0,
+      "bet_pct": 73.0,
       "kickoff_label": "Oct 18, 5:00pm UTC",
       "entered_at": "2026-10-12T07:35:03.645607+00:00",
       "peak_money_pct": 86.0,
@@ -207,14 +219,27 @@
       "underdog": "NYJ",
       "favorite_spread": -7.0,
       "underdog_spread": 7.5,
-      "money_pct": 85.0,
-      "bet_pct": 74.0,
+      "money_pct": 87.0,
+      "bet_pct": 75.0,
       "kickoff_label": "Oct 18, 5:00pm UTC",
       "entered_at": "2026-10-12T07:35:03.645607+00:00",
-      "peak_money_pct": 85.0,
+      "peak_money_pct": 87.0,
       "status": "active",
       "dropped_at": null,
       "drop_reason": null
+    },
+    {
+      "id": "SF-WAS",
+      "favorite": "SF",
+      "underdog": "WAS",
+      "favorite_spread": -7.5,
+      "underdog_spread": 7.5,
+      "money_pct": 85.0,
+      "bet_pct": 67.0,
+      "kickoff_label": "Oct 20, 12:15am UTC",
+      "entered_at": "2026-10-13T03:40:51.544467+00:00",
+      "peak_money_pct": 85.0,
+      "status": "active"
     }
   ]
 }
