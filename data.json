@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-18T18:51:43.904479+00:00",
+  "updated_at": "2026-10-18T21:08:08.303043+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
-  "source_note": "Live SBD table parsed successfully: 14 matchups.",
+  "source_note": "Live SBD table parsed successfully: 8 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
@@ -11,25 +11,13 @@
   },
   "games": [
     {
-      "id": "NE-NYJ",
-      "favorite": "NE",
-      "underdog": "NYJ",
-      "favorite_spread": -7.0,
-      "underdog_spread": 7.5,
-      "money_pct": 81.0,
-      "bet_pct": 71.0,
-      "kickoff_label": "Oct 18, 5:00pm UTC",
-      "entered_at": "2026-10-12T07:35:03.645607+00:00",
-      "peak_money_pct": 87.0
-    },
-    {
       "id": "ARI-LA",
       "favorite": "LA",
       "underdog": "ARI",
-      "favorite_spread": -12.5,
-      "underdog_spread": 13.0,
+      "favorite_spread": -11.5,
+      "underdog_spread": 13.5,
       "money_pct": 77.0,
-      "bet_pct": 76.0,
+      "bet_pct": 74.0,
       "kickoff_label": "Oct 18, 8:05pm UTC",
       "entered_at": "2026-10-18T18:51:43.904479+00:00",
       "peak_money_pct": 77.0
@@ -247,14 +235,16 @@
       "id": "ARI-LA",
       "favorite": "LA",
       "underdog": "ARI",
-      "favorite_spread": -12.5,
-      "underdog_spread": 13.0,
+      "favorite_spread": -11.5,
+      "underdog_spread": 13.5,
       "money_pct": 77.0,
-      "bet_pct": 76.0,
+      "bet_pct": 74.0,
       "kickoff_label": "Oct 18, 8:05pm UTC",
       "entered_at": "2026-10-18T18:51:43.904479+00:00",
       "peak_money_pct": 77.0,
-      "status": "active"
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     }
   ]
 }
