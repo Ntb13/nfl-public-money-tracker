@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-25T16:01:36.216255+00:00",
+  "updated_at": "2026-10-25T18:55:31.540396+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
-  "source_note": "Live SBD table parsed successfully: 17 matchups.",
+  "source_note": "Live SBD table parsed successfully: 16 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
