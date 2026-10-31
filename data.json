@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T06:39:19.669523+00:00",
+  "updated_at": "2026-10-31T13:01:43.355842+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
@@ -9,7 +9,20 @@
     "favorite_money_pct_min": 77.0,
     "trigger_field": "SBD Spread $% (money/handle) ONLY; Spread BET% is displayed only as context and never triggers qualification."
   },
-  "games": [],
+  "games": [
+    {
+      "id": "MIA-NE",
+      "favorite": "NE",
+      "underdog": "MIA",
+      "favorite_spread": -6.5,
+      "underdog_spread": 7.0,
+      "money_pct": 77.0,
+      "bet_pct": 75.0,
+      "kickoff_label": "Nov 1, 9:25pm UTC",
+      "entered_at": "2026-10-31T13:01:43.355842+00:00",
+      "peak_money_pct": 77.0
+    }
+  ],
   "history": [
     {
       "id": "KC-MIA",
@@ -220,6 +233,19 @@
       "status": "dropped",
       "dropped_at": "2026-10-18T23:03:53.055585+00:00",
       "drop_reason": "Dropped because spread money fell to 65%."
+    },
+    {
+      "id": "MIA-NE",
+      "favorite": "NE",
+      "underdog": "MIA",
+      "favorite_spread": -6.5,
+      "underdog_spread": 7.0,
+      "money_pct": 77.0,
+      "bet_pct": 75.0,
+      "kickoff_label": "Nov 1, 9:25pm UTC",
+      "entered_at": "2026-10-31T13:01:43.355842+00:00",
+      "peak_money_pct": 77.0,
+      "status": "active"
     }
   ]
 }
