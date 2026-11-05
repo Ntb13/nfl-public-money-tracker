@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T02:50:14.365282+00:00",
+  "updated_at": "2026-11-05T09:54:59.198986+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
@@ -11,25 +11,13 @@
   },
   "games": [
     {
-      "id": "BAL-JAX",
-      "favorite": "JAX",
-      "underdog": "BAL",
-      "favorite_spread": -9.5,
-      "underdog_spread": 10.0,
-      "money_pct": 78.0,
-      "bet_pct": 74.0,
-      "kickoff_label": "Nov 6, 1:15am UTC",
-      "entered_at": "2026-11-04T17:29:40.775434+00:00",
-      "peak_money_pct": 78.0
-    },
-    {
       "id": "DET-MIA",
       "favorite": "DET",
       "underdog": "MIA",
       "favorite_spread": -6.5,
       "underdog_spread": 7.0,
-      "money_pct": 80.0,
-      "bet_pct": 76.0,
+      "money_pct": 86.0,
+      "bet_pct": 77.0,
       "kickoff_label": "Nov 8, 6:00pm UTC",
       "entered_at": "2026-11-02T10:12:45.525599+00:00",
       "peak_money_pct": 88.0
@@ -282,8 +270,8 @@
       "underdog": "MIA",
       "favorite_spread": -6.5,
       "underdog_spread": 7.0,
-      "money_pct": 80.0,
-      "bet_pct": 76.0,
+      "money_pct": 86.0,
+      "bet_pct": 77.0,
       "kickoff_label": "Nov 8, 6:00pm UTC",
       "entered_at": "2026-11-02T10:12:45.525599+00:00",
       "peak_money_pct": 88.0,
@@ -297,14 +285,14 @@
       "underdog": "BAL",
       "favorite_spread": -9.5,
       "underdog_spread": 10.0,
-      "money_pct": 78.0,
-      "bet_pct": 74.0,
+      "money_pct": 76.0,
+      "bet_pct": 70.0,
       "kickoff_label": "Nov 6, 1:15am UTC",
       "entered_at": "2026-11-04T17:29:40.775434+00:00",
       "peak_money_pct": 78.0,
-      "status": "active",
-      "dropped_at": null,
-      "drop_reason": null
+      "status": "dropped",
+      "dropped_at": "2026-11-05T09:54:59.198986+00:00",
+      "drop_reason": "Dropped because spread money fell to 76%."
     }
   ]
 }
