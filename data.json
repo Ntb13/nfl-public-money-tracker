@@ -1,15 +1,28 @@
 {
-  "updated_at": "2026-11-07T22:39:32.304035+00:00",
+  "updated_at": "2026-11-08T01:47:29.202909+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
-  "source_note": "Live SBD table parsed successfully: 14 matchups.",
+  "source_note": "Live SBD table parsed successfully: 15 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
     "trigger_field": "SBD Spread $% (money/handle) ONLY; Spread BET% is displayed only as context and never triggers qualification."
   },
-  "games": [],
+  "games": [
+    {
+      "id": "DET-MIA",
+      "favorite": "DET",
+      "underdog": "MIA",
+      "favorite_spread": -6.5,
+      "underdog_spread": 6.5,
+      "money_pct": 88.0,
+      "bet_pct": 85.0,
+      "kickoff_label": "Nov 8, 6:00pm UTC",
+      "entered_at": "2026-11-02T10:12:45.525599+00:00",
+      "peak_money_pct": 88.0
+    }
+  ],
   "history": [
     {
       "id": "KC-MIA",
@@ -255,16 +268,16 @@
       "id": "DET-MIA",
       "favorite": "DET",
       "underdog": "MIA",
-      "favorite_spread": -5.5,
+      "favorite_spread": -6.5,
       "underdog_spread": 6.5,
-      "money_pct": 87.0,
+      "money_pct": 88.0,
       "bet_pct": 85.0,
       "kickoff_label": "Nov 8, 6:00pm UTC",
       "entered_at": "2026-11-02T10:12:45.525599+00:00",
       "peak_money_pct": 88.0,
-      "status": "dropped",
-      "dropped_at": "2026-11-07T22:39:32.304035+00:00",
-      "drop_reason": "Dropped because spread moved to -5.5."
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     },
     {
       "id": "BAL-JAX",
