@@ -1,15 +1,40 @@
 {
-  "updated_at": "2026-11-09T02:09:08.761561+00:00",
+  "updated_at": "2026-11-09T09:40:16.693704+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
-  "source_note": "Live SBD table parsed successfully: 5 matchups.",
+  "source_note": "Live SBD table parsed successfully: 14 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
     "trigger_field": "SBD Spread $% (money/handle) ONLY; Spread BET% is displayed only as context and never triggers qualification."
   },
-  "games": [],
+  "games": [
+    {
+      "id": "BUF-NYJ",
+      "favorite": "BUF",
+      "underdog": "NYJ",
+      "favorite_spread": -7.5,
+      "underdog_spread": 8.5,
+      "money_pct": 85.0,
+      "bet_pct": 83.0,
+      "kickoff_label": "Nov 15, 6:00pm UTC",
+      "entered_at": "2026-11-09T09:40:16.693704+00:00",
+      "peak_money_pct": 85.0
+    },
+    {
+      "id": "JAX-TEN",
+      "favorite": "JAX",
+      "underdog": "TEN",
+      "favorite_spread": -9.5,
+      "underdog_spread": 9.5,
+      "money_pct": 91.0,
+      "bet_pct": 86.0,
+      "kickoff_label": "Nov 15, 6:00pm UTC",
+      "entered_at": "2026-11-09T09:40:16.693704+00:00",
+      "peak_money_pct": 91.0
+    }
+  ],
   "history": [
     {
       "id": "KC-MIA",
@@ -280,6 +305,32 @@
       "status": "dropped",
       "dropped_at": "2026-11-05T09:54:59.198986+00:00",
       "drop_reason": "Dropped because spread money fell to 76%."
+    },
+    {
+      "id": "BUF-NYJ",
+      "favorite": "BUF",
+      "underdog": "NYJ",
+      "favorite_spread": -7.5,
+      "underdog_spread": 8.5,
+      "money_pct": 85.0,
+      "bet_pct": 83.0,
+      "kickoff_label": "Nov 15, 6:00pm UTC",
+      "entered_at": "2026-11-09T09:40:16.693704+00:00",
+      "peak_money_pct": 85.0,
+      "status": "active"
+    },
+    {
+      "id": "JAX-TEN",
+      "favorite": "JAX",
+      "underdog": "TEN",
+      "favorite_spread": -9.5,
+      "underdog_spread": 9.5,
+      "money_pct": 91.0,
+      "bet_pct": 86.0,
+      "kickoff_label": "Nov 15, 6:00pm UTC",
+      "entered_at": "2026-11-09T09:40:16.693704+00:00",
+      "peak_money_pct": 91.0,
+      "status": "active"
     }
   ]
 }
