@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T09:34:27.594071+00:00",
+  "updated_at": "2026-11-11T17:24:34.199565+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
@@ -16,7 +16,7 @@
       "underdog": "NYJ",
       "favorite_spread": -7.5,
       "underdog_spread": 8.5,
-      "money_pct": 80.0,
+      "money_pct": 81.0,
       "bet_pct": 91.0,
       "kickoff_label": "Nov 15, 6:00pm UTC",
       "entered_at": "2026-11-09T09:40:16.693704+00:00",
@@ -38,13 +38,13 @@
       "id": "ARI-LA",
       "favorite": "LA",
       "underdog": "ARI",
-      "favorite_spread": -9.0,
+      "favorite_spread": -8.5,
       "underdog_spread": 9.5,
-      "money_pct": 77.0,
+      "money_pct": 78.0,
       "bet_pct": 66.0,
       "kickoff_label": "Nov 15, 9:05pm UTC",
       "entered_at": "2026-10-18T18:51:43.904479+00:00",
-      "peak_money_pct": 77.0
+      "peak_money_pct": 78.0
     },
     {
       "id": "LV-SEA",
@@ -52,8 +52,8 @@
       "underdog": "LV",
       "favorite_spread": -6.5,
       "underdog_spread": 6.5,
-      "money_pct": 89.0,
-      "bet_pct": 77.0,
+      "money_pct": 88.0,
+      "bet_pct": 76.0,
       "kickoff_label": "Nov 15, 9:05pm UTC",
       "entered_at": "2026-11-11T09:34:27.594071+00:00",
       "peak_money_pct": 89.0
@@ -259,13 +259,13 @@
       "id": "ARI-LA",
       "favorite": "LA",
       "underdog": "ARI",
-      "favorite_spread": -9.0,
+      "favorite_spread": -8.5,
       "underdog_spread": 9.5,
-      "money_pct": 77.0,
+      "money_pct": 78.0,
       "bet_pct": 66.0,
       "kickoff_label": "Nov 15, 9:05pm UTC",
       "entered_at": "2026-10-18T18:51:43.904479+00:00",
-      "peak_money_pct": 77.0,
+      "peak_money_pct": 78.0,
       "status": "active",
       "dropped_at": null,
       "drop_reason": null
@@ -336,7 +336,7 @@
       "underdog": "NYJ",
       "favorite_spread": -7.5,
       "underdog_spread": 8.5,
-      "money_pct": 80.0,
+      "money_pct": 81.0,
       "bet_pct": 91.0,
       "kickoff_label": "Nov 15, 6:00pm UTC",
       "entered_at": "2026-11-09T09:40:16.693704+00:00",
@@ -366,12 +366,14 @@
       "underdog": "LV",
       "favorite_spread": -6.5,
       "underdog_spread": 6.5,
-      "money_pct": 89.0,
-      "bet_pct": 77.0,
+      "money_pct": 88.0,
+      "bet_pct": 76.0,
       "kickoff_label": "Nov 15, 9:05pm UTC",
       "entered_at": "2026-11-11T09:34:27.594071+00:00",
       "peak_money_pct": 89.0,
-      "status": "active"
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     }
   ]
 }
