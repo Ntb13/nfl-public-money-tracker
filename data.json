@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-16T17:57:07.307937+00:00",
+  "updated_at": "2026-11-17T01:20:34.855297+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
-  "source_note": "Live SBD table parsed successfully: 17 matchups.",
+  "source_note": "Live SBD table parsed successfully: 18 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
@@ -14,13 +14,25 @@
       "id": "CHI-NO",
       "favorite": "CHI",
       "underdog": "NO",
-      "favorite_spread": -10.0,
-      "underdog_spread": 10.5,
-      "money_pct": 89.0,
+      "favorite_spread": -10.5,
+      "underdog_spread": 11.5,
+      "money_pct": 88.0,
       "bet_pct": 87.0,
       "kickoff_label": "Nov 22, 6:00pm UTC",
       "entered_at": "2026-11-11T23:31:47.137953+00:00",
       "peak_money_pct": 99.0
+    },
+    {
+      "id": "DET-TB",
+      "favorite": "DET",
+      "underdog": "TB",
+      "favorite_spread": -6.5,
+      "underdog_spread": 6.5,
+      "money_pct": 83.0,
+      "bet_pct": 75.0,
+      "kickoff_label": "Nov 22, 6:00pm UTC",
+      "entered_at": "2026-11-17T01:20:34.855297+00:00",
+      "peak_money_pct": 83.0
     }
   ],
   "history": [
@@ -358,9 +370,9 @@
       "id": "CHI-NO",
       "favorite": "CHI",
       "underdog": "NO",
-      "favorite_spread": -10.0,
-      "underdog_spread": 10.5,
-      "money_pct": 89.0,
+      "favorite_spread": -10.5,
+      "underdog_spread": 11.5,
+      "money_pct": 88.0,
       "bet_pct": 87.0,
       "kickoff_label": "Nov 22, 6:00pm UTC",
       "entered_at": "2026-11-11T23:31:47.137953+00:00",
@@ -413,6 +425,19 @@
       "status": "dropped",
       "dropped_at": "2026-11-16T07:59:45.800436+00:00",
       "drop_reason": "Dropped because spread money fell to 71%."
+    },
+    {
+      "id": "DET-TB",
+      "favorite": "DET",
+      "underdog": "TB",
+      "favorite_spread": -6.5,
+      "underdog_spread": 6.5,
+      "money_pct": 83.0,
+      "bet_pct": 75.0,
+      "kickoff_label": "Nov 22, 6:00pm UTC",
+      "entered_at": "2026-11-17T01:20:34.855297+00:00",
+      "peak_money_pct": 83.0,
+      "status": "active"
     }
   ]
 }
