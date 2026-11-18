@@ -1,15 +1,28 @@
 {
-  "updated_at": "2026-11-18T08:34:05.689738+00:00",
+  "updated_at": "2026-11-18T17:32:53.430050+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
-  "source_note": "Live SBD table parsed successfully: 16 matchups.",
+  "source_note": "Live SBD table parsed successfully: 17 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
     "trigger_field": "SBD Spread $% (money/handle) ONLY; Spread BET% is displayed only as context and never triggers qualification."
   },
-  "games": [],
+  "games": [
+    {
+      "id": "CIN-WAS",
+      "favorite": "CIN",
+      "underdog": "WAS",
+      "favorite_spread": -6.5,
+      "underdog_spread": 6.5,
+      "money_pct": 78.0,
+      "bet_pct": 79.0,
+      "kickoff_label": "Nov 24, 1:15am UTC",
+      "entered_at": "2026-11-17T18:38:21.951835+00:00",
+      "peak_money_pct": 83.0
+    }
+  ],
   "history": [
     {
       "id": "KC-MIA",
@@ -420,16 +433,16 @@
       "id": "CIN-WAS",
       "favorite": "CIN",
       "underdog": "WAS",
-      "favorite_spread": -5.5,
+      "favorite_spread": -6.5,
       "underdog_spread": 6.5,
-      "money_pct": 83.0,
-      "bet_pct": 77.0,
+      "money_pct": 78.0,
+      "bet_pct": 79.0,
       "kickoff_label": "Nov 24, 1:15am UTC",
       "entered_at": "2026-11-17T18:38:21.951835+00:00",
       "peak_money_pct": 83.0,
-      "status": "dropped",
-      "dropped_at": "2026-11-18T01:20:09.626086+00:00",
-      "drop_reason": "Dropped because spread moved to -5.5."
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     }
   ]
 }
