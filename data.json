@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-22T21:12:44.944857+00:00",
+  "updated_at": "2026-11-23T01:43:52.432469+00:00",
   "source": "SportsBettingDime",
   "source_url": "https://www.sportsbettingdime.com/nfl/public-betting-trends/",
   "source_available": true,
-  "source_note": "Live SBD table parsed successfully: 16 matchups.",
+  "source_note": "Live SBD table parsed successfully: 7 matchups.",
   "parameters": {
     "favorite_spread_max": -6.5,
     "favorite_money_pct_min": 77.0,
@@ -11,10 +11,22 @@
   },
   "games": [
     {
+      "id": "CIN-WAS",
+      "favorite": "CIN",
+      "underdog": "WAS",
+      "favorite_spread": -6.5,
+      "underdog_spread": 6.5,
+      "money_pct": 79.0,
+      "bet_pct": 86.0,
+      "kickoff_label": "Nov 24, 1:15am UTC",
+      "entered_at": "2026-11-17T18:38:21.951835+00:00",
+      "peak_money_pct": 83.0
+    },
+    {
       "id": "JAX-TEN",
       "favorite": "JAX",
       "underdog": "TEN",
-      "favorite_spread": -14.0,
+      "favorite_spread": -14.5,
       "underdog_spread": 14.5,
       "money_pct": 78.0,
       "bet_pct": 80.0,
@@ -313,7 +325,7 @@
       "id": "JAX-TEN",
       "favorite": "JAX",
       "underdog": "TEN",
-      "favorite_spread": -14.0,
+      "favorite_spread": -14.5,
       "underdog_spread": 14.5,
       "money_pct": 78.0,
       "bet_pct": 80.0,
@@ -433,16 +445,16 @@
       "id": "CIN-WAS",
       "favorite": "CIN",
       "underdog": "WAS",
-      "favorite_spread": -6.0,
+      "favorite_spread": -6.5,
       "underdog_spread": 6.5,
-      "money_pct": 78.0,
-      "bet_pct": 80.0,
+      "money_pct": 79.0,
+      "bet_pct": 86.0,
       "kickoff_label": "Nov 24, 1:15am UTC",
       "entered_at": "2026-11-17T18:38:21.951835+00:00",
       "peak_money_pct": 83.0,
-      "status": "dropped",
-      "dropped_at": "2026-11-18T23:29:38.308631+00:00",
-      "drop_reason": "Dropped because spread moved to -6."
+      "status": "active",
+      "dropped_at": null,
+      "drop_reason": null
     }
   ]
 }
